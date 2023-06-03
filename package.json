@@ -1,0 +1,32 @@
+{
+  "name": "files-handler-api",
+  "version": "1.0.0",
+  "description": "Handle files from 3rd-party service",
+  "main": "app/app.js",
+  "scripts": {
+    "standard": "standard",
+    "standard:fix": "standard --fix",
+    "test": "mocha 'app/**/*.test.js' --recursive"
+  },
+  "keywords": [
+    "file",
+    "handler",
+    "api",
+    "node",
+    "react"
+  ],
+  "author": "Danny Salazar <dssm_15@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.2",
+    "jsonschema": "1.4.0"
+  },
+  "devDependencies": {
+    "axios": "^1.4.0",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.2.0",
+    "sinon": "^15.1.0",
+    "standard": "^17.1.0"
+  }
+}
